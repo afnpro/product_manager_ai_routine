@@ -1,0 +1,92 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.4",
+  "msteams": { "width": "Full" },
+  "body": [
+    {
+      "type": "TextBlock",
+      "id": "linha_pessoal",
+      "text": "{{linha_pessoal}}",
+      "wrap": true
+    },
+    {
+      "type": "Container",
+      "id": "cabecalho",
+      "style": "emphasis",
+      "bleed": true,
+      "spacing": "Medium",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "{{nome_newsletter}} · Edição {{edicao}}",
+          "weight": "Bolder",
+          "size": "Large",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "{{data_extenso}}",
+          "isSubtle": true,
+          "spacing": "None",
+          "wrap": true
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "id": "bloco_destaque",
+      "spacing": "Large",
+      "items": [
+        { "type": "TextBlock", "text": "Destaque da semana", "weight": "Bolder", "color": "Accent", "size": "Medium", "wrap": true },
+        { "type": "TextBlock", "text": "{{destaque_titulo}}", "weight": "Bolder", "wrap": true },
+        { "type": "TextBlock", "text": "{{destaque_texto}}", "wrap": true, "spacing": "Small" }
+      ]
+    },
+    {
+      "type": "Container",
+      "id": "bloco_dica",
+      "spacing": "Large",
+      "separator": true,
+      "items": [
+        { "type": "TextBlock", "text": "Dica da semana", "weight": "Bolder", "color": "Accent", "size": "Medium", "wrap": true },
+        { "type": "TextBlock", "text": "{{dica_texto}}", "wrap": true }
+      ]
+    },
+    {
+      "type": "Container",
+      "id": "bloco_caso",
+      "spacing": "Large",
+      "separator": true,
+      "items": [
+        { "type": "TextBlock", "text": "Caso real", "weight": "Bolder", "color": "Accent", "size": "Medium", "wrap": true },
+        { "type": "TextBlock", "text": "{{caso_titulo}}", "weight": "Bolder", "wrap": true },
+        { "type": "TextBlock", "text": "{{caso_texto}}", "wrap": true, "spacing": "Small" }
+      ]
+    },
+    {
+      "type": "Container",
+      "id": "bloco_proximos",
+      "spacing": "Large",
+      "separator": true,
+      "items": [
+        { "type": "TextBlock", "text": "O que vem a seguir", "weight": "Bolder", "color": "Accent", "size": "Medium", "wrap": true },
+        { "type": "TextBlock", "text": "{{proximos_passos}}", "wrap": true }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "id": "rodape",
+      "text": "{{rodape}}",
+      "isSubtle": true,
+      "size": "Small",
+      "spacing": "Large",
+      "wrap": true
+    }
+  ],
+  "actions": [
+    { "type": "Action.OpenUrl", "title": "Ver no canal", "url": "{{link_canal}}" },
+    { "type": "Action.OpenUrl", "title": "Documentação", "url": "{{link_documentacao}}" },
+    { "type": "Action.OpenUrl", "title": "Dar feedback", "url": "{{link_feedback}}" }
+  ]
+}

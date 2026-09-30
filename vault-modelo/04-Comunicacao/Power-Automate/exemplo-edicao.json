@@ -1,0 +1,656 @@
+{
+  "edicao": 1,
+  "data": "2026-10-09",
+  "tema": "MCP",
+  "assunto": "Edição de teste do comunicado",
+  "cards": {
+    "geral": {
+      "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+      "type": "AdaptiveCard",
+      "version": "1.4",
+      "msteams": {
+        "width": "Full"
+      },
+      "body": [
+        {
+          "type": "TextBlock",
+          "id": "linha_pessoal",
+          "text": "Oi! Aqui é o PM do produto. Separei o que mudou esta semana e o que vem por aí.",
+          "wrap": true
+        },
+        {
+          "type": "Container",
+          "id": "cabecalho",
+          "style": "emphasis",
+          "bleed": true,
+          "spacing": "Medium",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Novidades do Produto · Edição 1",
+              "weight": "Bolder",
+              "size": "Large",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Sexta-feira, 9 de outubro de 2026",
+              "isSubtle": true,
+              "spacing": "None",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "id": "bloco_destaque",
+          "spacing": "Large",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Destaque da semana",
+              "weight": "Bolder",
+              "color": "Accent",
+              "size": "Medium",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Exemplo de destaque para o segmento geral",
+              "weight": "Bolder",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Texto de teste para validar o card no Teams. Substitua pelo conteúdo real gerado pelo /comunicado.",
+              "wrap": true,
+              "spacing": "Small"
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "id": "bloco_dica",
+          "spacing": "Large",
+          "separator": true,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Dica da semana",
+              "weight": "Bolder",
+              "color": "Accent",
+              "size": "Medium",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Exemplo de dica da semana em uma ou duas frases.",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "id": "bloco_caso",
+          "spacing": "Large",
+          "separator": true,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Caso real",
+              "weight": "Bolder",
+              "color": "Accent",
+              "size": "Medium",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Exemplo de caso real",
+              "weight": "Bolder",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Como um time usou o produto para resolver um problema.",
+              "wrap": true,
+              "spacing": "Small"
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "id": "bloco_proximos",
+          "spacing": "Large",
+          "separator": true,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "O que vem a seguir",
+              "weight": "Bolder",
+              "color": "Accent",
+              "size": "Medium",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "- Primeiro item do mês atual\n- Segundo item do mês atual\n- Um item do próximo mês",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "rodape",
+          "text": "Você recebe esta mensagem por usar o produto. Não quer mais receber? Responda \"sair\".",
+          "isSubtle": true,
+          "size": "Small",
+          "spacing": "Large",
+          "wrap": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Ver no canal",
+          "url": "https://teams.microsoft.com"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Documentação",
+          "url": "https://example.com/docs"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Dar feedback",
+          "url": "https://forms.office.com"
+        }
+      ]
+    },
+    "consome": {
+      "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+      "type": "AdaptiveCard",
+      "version": "1.4",
+      "msteams": {
+        "width": "Full"
+      },
+      "body": [
+        {
+          "type": "TextBlock",
+          "id": "linha_pessoal",
+          "text": "Oi! Aqui é o PM do produto. Separei o que mudou esta semana e o que vem por aí.",
+          "wrap": true
+        },
+        {
+          "type": "Container",
+          "id": "cabecalho",
+          "style": "emphasis",
+          "bleed": true,
+          "spacing": "Medium",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Novidades do Produto · Edição 1",
+              "weight": "Bolder",
+              "size": "Large",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Sexta-feira, 9 de outubro de 2026",
+              "isSubtle": true,
+              "spacing": "None",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "id": "bloco_destaque",
+          "spacing": "Large",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Destaque da semana",
+              "weight": "Bolder",
+              "color": "Accent",
+              "size": "Medium",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Exemplo de destaque para o segmento consome",
+              "weight": "Bolder",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Texto de teste para validar o card no Teams. Substitua pelo conteúdo real gerado pelo /comunicado.",
+              "wrap": true,
+              "spacing": "Small"
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "id": "bloco_dica",
+          "spacing": "Large",
+          "separator": true,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Dica da semana",
+              "weight": "Bolder",
+              "color": "Accent",
+              "size": "Medium",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Exemplo de dica da semana em uma ou duas frases.",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "id": "bloco_caso",
+          "spacing": "Large",
+          "separator": true,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Caso real",
+              "weight": "Bolder",
+              "color": "Accent",
+              "size": "Medium",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Exemplo de caso real",
+              "weight": "Bolder",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Como um time usou o produto para resolver um problema.",
+              "wrap": true,
+              "spacing": "Small"
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "id": "bloco_proximos",
+          "spacing": "Large",
+          "separator": true,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "O que vem a seguir",
+              "weight": "Bolder",
+              "color": "Accent",
+              "size": "Medium",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "- Primeiro item do mês atual\n- Segundo item do mês atual\n- Um item do próximo mês",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "rodape",
+          "text": "Você recebe esta mensagem por usar o produto. Não quer mais receber? Responda \"sair\".",
+          "isSubtle": true,
+          "size": "Small",
+          "spacing": "Large",
+          "wrap": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Ver no canal",
+          "url": "https://teams.microsoft.com"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Documentação",
+          "url": "https://example.com/docs"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Dar feedback",
+          "url": "https://forms.office.com"
+        }
+      ]
+    },
+    "publica": {
+      "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+      "type": "AdaptiveCard",
+      "version": "1.4",
+      "msteams": {
+        "width": "Full"
+      },
+      "body": [
+        {
+          "type": "TextBlock",
+          "id": "linha_pessoal",
+          "text": "Oi! Aqui é o PM do produto. Separei o que mudou esta semana e o que vem por aí.",
+          "wrap": true
+        },
+        {
+          "type": "Container",
+          "id": "cabecalho",
+          "style": "emphasis",
+          "bleed": true,
+          "spacing": "Medium",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Novidades do Produto · Edição 1",
+              "weight": "Bolder",
+              "size": "Large",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Sexta-feira, 9 de outubro de 2026",
+              "isSubtle": true,
+              "spacing": "None",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "id": "bloco_destaque",
+          "spacing": "Large",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Destaque da semana",
+              "weight": "Bolder",
+              "color": "Accent",
+              "size": "Medium",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Exemplo de destaque para o segmento publica",
+              "weight": "Bolder",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Texto de teste para validar o card no Teams. Substitua pelo conteúdo real gerado pelo /comunicado.",
+              "wrap": true,
+              "spacing": "Small"
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "id": "bloco_dica",
+          "spacing": "Large",
+          "separator": true,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Dica da semana",
+              "weight": "Bolder",
+              "color": "Accent",
+              "size": "Medium",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Exemplo de dica da semana em uma ou duas frases.",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "id": "bloco_caso",
+          "spacing": "Large",
+          "separator": true,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Caso real",
+              "weight": "Bolder",
+              "color": "Accent",
+              "size": "Medium",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Exemplo de caso real",
+              "weight": "Bolder",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Como um time usou o produto para resolver um problema.",
+              "wrap": true,
+              "spacing": "Small"
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "id": "bloco_proximos",
+          "spacing": "Large",
+          "separator": true,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "O que vem a seguir",
+              "weight": "Bolder",
+              "color": "Accent",
+              "size": "Medium",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "- Primeiro item do mês atual\n- Segundo item do mês atual\n- Um item do próximo mês",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "rodape",
+          "text": "Você recebe esta mensagem por usar o produto. Não quer mais receber? Responda \"sair\".",
+          "isSubtle": true,
+          "size": "Small",
+          "spacing": "Large",
+          "wrap": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Ver no canal",
+          "url": "https://teams.microsoft.com"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Documentação",
+          "url": "https://example.com/docs"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Dar feedback",
+          "url": "https://forms.office.com"
+        }
+      ]
+    },
+    "seguranca": {
+      "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+      "type": "AdaptiveCard",
+      "version": "1.4",
+      "msteams": {
+        "width": "Full"
+      },
+      "body": [
+        {
+          "type": "TextBlock",
+          "id": "linha_pessoal",
+          "text": "Oi! Aqui é o PM do produto. Separei o que mudou esta semana e o que vem por aí.",
+          "wrap": true
+        },
+        {
+          "type": "Container",
+          "id": "cabecalho",
+          "style": "emphasis",
+          "bleed": true,
+          "spacing": "Medium",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Novidades do Produto · Edição 1",
+              "weight": "Bolder",
+              "size": "Large",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Sexta-feira, 9 de outubro de 2026",
+              "isSubtle": true,
+              "spacing": "None",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "id": "bloco_destaque",
+          "spacing": "Large",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Destaque da semana",
+              "weight": "Bolder",
+              "color": "Accent",
+              "size": "Medium",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Exemplo de destaque para o segmento seguranca",
+              "weight": "Bolder",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Texto de teste para validar o card no Teams. Substitua pelo conteúdo real gerado pelo /comunicado.",
+              "wrap": true,
+              "spacing": "Small"
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "id": "bloco_dica",
+          "spacing": "Large",
+          "separator": true,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Dica da semana",
+              "weight": "Bolder",
+              "color": "Accent",
+              "size": "Medium",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Exemplo de dica da semana em uma ou duas frases.",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "id": "bloco_caso",
+          "spacing": "Large",
+          "separator": true,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "Caso real",
+              "weight": "Bolder",
+              "color": "Accent",
+              "size": "Medium",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Exemplo de caso real",
+              "weight": "Bolder",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "Como um time usou o produto para resolver um problema.",
+              "wrap": true,
+              "spacing": "Small"
+            }
+          ]
+        },
+        {
+          "type": "Container",
+          "id": "bloco_proximos",
+          "spacing": "Large",
+          "separator": true,
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "O que vem a seguir",
+              "weight": "Bolder",
+              "color": "Accent",
+              "size": "Medium",
+              "wrap": true
+            },
+            {
+              "type": "TextBlock",
+              "text": "- Primeiro item do mês atual\n- Segundo item do mês atual\n- Um item do próximo mês",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "TextBlock",
+          "id": "rodape",
+          "text": "Você recebe esta mensagem por usar o produto. Não quer mais receber? Responda \"sair\".",
+          "isSubtle": true,
+          "size": "Small",
+          "spacing": "Large",
+          "wrap": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.OpenUrl",
+          "title": "Ver no canal",
+          "url": "https://teams.microsoft.com"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Documentação",
+          "url": "https://example.com/docs"
+        },
+        {
+          "type": "Action.OpenUrl",
+          "title": "Dar feedback",
+          "url": "https://forms.office.com"
+        }
+      ]
+    }
+  }
+}
