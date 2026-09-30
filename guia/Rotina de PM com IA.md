@@ -112,7 +112,7 @@ A rotina se apoia em três pontos que você controla: o começo do dia, o fim do
 | Quando | O que fazer |
 | --- | --- |
 | Segunda | Prompt de coleta das respostas ao comunicado; olhada de 15 min na semana |
-| Terça e quinta | 20 min de estudo leve depois da natação |
+| Terça e quinta | 20 min de estudo leve |
 | Véspera do refino | `/historias` e `/refino` |
 | Sexta 7h–8h15 | Estudo profundo |
 | Sexta 8h15–9h | `/semana` (inclui check-in dos OKRs), `/status` (você define o semáforo), um `/principio`, `/comunicado` e aprovação do disparo |
