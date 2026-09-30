@@ -46,7 +46,7 @@ Este vault é o sistema de trabalho de um PM. Você (Claude Code) processa o que
 
 ## Convenções de leitura
 
-- **Marcadores** (em caixas de texto do Excalidraw ou em linhas da nota): `D:` decisão · `?` dúvida · `!` risco de governança · `→ Nome: ação` ação com responsável. Veja `90-Config/convencoes.md`.
+- **Marcadores** (em caixas de texto do Excalidraw ou em linhas da nota): `D:` decisão · `?` dúvida · `!` risco · `→ Nome: ação` ação com responsável · `N:` necessidade de usuário. Veja `90-Config/convencoes.md`.
 - **Etiquetas de reunião:** `#tema/<slug>` e `#reuniao/<tipo>` onde tipo ∈ `gravada`, `ritual`, `nao-gravada`, `entrevista`, `surgiu-no-dia`, `cancelada`.
 - **Desenhos Excalidraw** são arquivos `.excalidraw.md`. Os textos ficam na seção `## Text Elements`. As formas e setas ficam no bloco `json` (ou `compressed-json`, comprimido com LZ-String em base64; descomprima com a biblioteca `lz-string` para ler as ligações `startBinding`/`endBinding` das setas). Se houver PNG exportado ao lado, você pode olhar a imagem.
 

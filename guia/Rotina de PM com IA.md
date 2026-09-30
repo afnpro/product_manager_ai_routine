@@ -166,7 +166,7 @@ Como os desenhos são feitos com caixas de texto, o Claude Code lê o conteúdo 
 | --- | --- | --- |
 | `D:` | Decisão | `D: todo server novo passa pelo gateway` |
 | `?` | Dúvida ou algo a confirmar | `? quem aprova servers externos` |
-| `!` | Risco de governança | `! server X acessa dado sensível sem auth` |
+| `!` | Risco (de negócio, experiência, segurança, prazo...) | `! server X acessa dado sensível sem auth` |
 | `→` | Ação com responsável | `→ Ana: revisar escopo OAuth` |
 
 O kit acrescenta `N:` para necessidade de usuário, que vai direto para o repositório de evidências. O que não tiver marcador também é lido, só com menos certeza.
@@ -180,7 +180,7 @@ O kit acrescenta `N:` para necessidade de usuário, que vai direto para o reposi
 
 - Descreve o diagrama em texto ou gera uma versão Mermaid/C4 para PRDs.
 - Mostra o que mudou entre versões, se o vault estiver versionado com o plugin Obsidian Git.
-- Revisa o diagrama contra os princípios de governança do tema e aponta violações como requisitos, sem decidir a implementação.
+- Revisa o diagrama contra os princípios de produto do tema e aponta violações como requisitos, sem decidir a implementação.
 
 **Configuração do Excalidraw**
 
@@ -211,7 +211,7 @@ São 21 comandos do Claude Code, todos genéricos: o que é específico vem do c
 | `/fechar-dia` | 18h | Extração do Copilot, nota, desenhos do dia | Pendências, follow-ups, decisões, necessidades, seções de reuniões surgidas, 3 itens a revisar | Só o sinalizado |
 | `/semana` | Sexta | Notas da semana, OKRs | Padrões de energia e agenda, decisões, pendências, check-in de OKRs, temas de estudo | Não precisa |
 | `/status` | Sexta | Semana, roadmap, OKRs, métricas | Status report por público, em markdown e PPT | Sempre |
-| `/principio` | Sexta | Decisões recorrentes | Princípio de governança no formato padrão | Sempre |
+| `/principio` | Sexta | Decisões recorrentes | Princípio de produto (valor, experiência, dados, segurança, operação...) e verificação de artefatos contra os princípios | Sempre |
 | `/comunicado` | Sexta | Entregas, decisões, evidências, exemplos de tom | JSON dos cards por segmento para o Power Automate | Sempre |
 | `/prd` | Sob demanda | Notas, caixogramas, evidências, template de PRD | PRD com seção "perguntas para o tech lead" | Sempre |
 | `/historias` | Antes do refino | PRD, caixogramas, rubrica | Épico, histórias, critérios de aceite, nota estimada | Sempre |

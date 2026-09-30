@@ -17,7 +17,7 @@ Para cada reunião, em ordem de data:
 - Decisões (quem decidiu + trecho curto)
 - Mudanças de rumo em relação a decisões anteriores
 - Necessidades ou problemas de usuários citados (trecho curto)
-- Riscos, incidentes, preocupações de governança ou segurança
+- Riscos, incidentes e preocupações levantadas
 - Pendências que ficaram em aberto
 - Documentos ou apresentações citados (nomes)
 

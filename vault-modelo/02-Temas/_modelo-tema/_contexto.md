@@ -24,8 +24,8 @@ Este arquivo ensina os comandos sobre o tema. Os gatilhos alimentam o prompt de 
 ## Gatilhos
 
 <!-- Assuntos que, se aparecerem numa reunião, você precisa saber. Um por linha.
-     Exemplos para uma plataforma de MCP: novos MCP servers; permissões e autenticação; dados sensíveis;
-     prazos do roadmap; mudanças de escopo; incidentes; aprovação de servers externos. -->
+     Exemplos genéricos: mudanças de escopo; prazos do roadmap; incidentes; dados sensíveis; pedidos de clientes-chave;
+     novas integrações; mudanças de preço ou contrato. -->
 - 
 
 ## Glossário
@@ -54,6 +54,12 @@ Este arquivo ensina os comandos sobre o tema. Os gatilhos alimentam o prompt de 
 | Refino | | | automática |
 | Retro | | | não |
 | Demo | mensal | | |
+
+## Categorias de princípios que mais importam aqui
+
+<!-- Usadas pelo /principio para priorizar. Marque as relevantes para este tema:
+     valor e escopo · experiência · dados e privacidade · segurança e conformidade · operação · limites técnicos · comunicação -->
+- 
 
 ## Métrica principal
 

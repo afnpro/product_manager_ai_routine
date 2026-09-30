@@ -5,7 +5,7 @@ description: Gera uma apresentação avulsa no template da empresa a partir de q
 
 # /ppt
 
-Argumento: assunto, público e duração. Ex.: `/ppt governança de servers externos para o comitê de segurança, 15 min`.
+Argumento: assunto, público e duração. Ex.: `/ppt proposta de nova política de acesso para a diretoria, 15 min`.
 
 ## Passos
 

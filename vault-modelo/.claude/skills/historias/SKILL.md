@@ -5,7 +5,7 @@ description: Quebra um PRD em épico, histórias com critérios de aceite e suge
 
 # /historias
 
-Argumento: o PRD (nome ou link). Ex.: `/historias aprovação de servers externos`.
+Argumento: o PRD (nome ou link). Ex.: `/historias exportação de relatórios`.
 
 ## Entrada
 
@@ -21,7 +21,7 @@ Argumento: o PRD (nome ou link). Ex.: `/historias aprovação de servers externo
    - Título curto e orientado a resultado.
    - "Como <perfil>, quero <capacidade>, para <valor>."
    - Contexto e link para o requisito do PRD (`RQ-xx`) e para a evidência.
-   - Critérios de aceite em Dado/Quando/Então, incluindo o caminho de erro e os requisitos de governança aplicáveis.
+   - Critérios de aceite em Dado/Quando/Então, incluindo o caminho de erro e os requisitos derivados dos princípios do tema.
    - Fora de escopo da história.
    - Dependências.
 3. **Tasks sugeridas:** quando fizer sentido, sugestão de quebra. Marque como "sugestão, validar com tech lead".

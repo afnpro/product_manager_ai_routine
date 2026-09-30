@@ -34,9 +34,10 @@ tech_lead:
 | ID | Requisito | Prioridade | Evidência / origem |
 | --- | --- | --- | --- |
 
-### Requisitos de governança
+### Requisitos derivados dos princípios
 
-<!-- Derivados dos princípios do tema. Ex.: "todo server passa por autorização". Dizem O QUÊ, não COMO. -->
+<!-- Um requisito para cada princípio validado do tema que se aplica (experiência, dados, segurança, operação...).
+     Ex.: "Ação de exclusão pede confirmação e pode ser desfeita por 30 dias (P-002)". Dizem O QUÊ, não COMO. -->
 
 ## 6. Jornada e contexto do sistema
 

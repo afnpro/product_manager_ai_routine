@@ -11,7 +11,7 @@ Comece com: "Encontrei N arquivos."
 Para cada arquivo:
 Nome | Tipo | Autor | Última modificação | Onde está (link) | Do que trata em uma frase | Relevância para o histórico do tema (alta, média, baixa)
 
-Ordene por relevância e depois por data. Destaque: arquitetura, PRDs e documentos de produto, apresentações para liderança, decisões de governança, resultados de pesquisa com usuários.
+Ordene por relevância e depois por data. Destaque: arquitetura, PRDs e documentos de produto, apresentações para liderança, registros de decisões importantes, resultados de pesquisa com usuários.
 ```
 
 Priorize os de relevância alta. O original continua no OneDrive/SharePoint como referência; o vault guarda o resumo e o link.

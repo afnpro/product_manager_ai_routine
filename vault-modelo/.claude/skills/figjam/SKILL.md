@@ -5,7 +5,7 @@ description: Gera prompts fundamentados no vault para a IA do FigJam (jornada, s
 
 # /figjam
 
-Argumentos: o artefato e o assunto. Ex.: `/figjam jornada publicar um server`, `/figjam blueprint aprovação`, `/figjam visioning`, `/figjam trazer <link do board>`.
+Argumentos: o artefato e o assunto. Ex.: `/figjam jornada primeiro uso`, `/figjam blueprint aprovação de acesso`, `/figjam visioning`, `/figjam trazer <link do board>`.
 
 ## Princípio
 

@@ -12,11 +12,11 @@ Use no início de uma caixa de texto do Excalidraw ou de uma linha da nota.
 
 | Marcador | Significa | Exemplo |
 | --- | --- | --- |
-| `D:` | Decisão | `D: todo server novo passa pelo gateway` |
-| `?` | Dúvida, algo a confirmar | `? quem aprova servers externos` |
-| `!` | Risco de governança | `! server X acessa dado sensível sem auth` |
+| `D:` | Decisão | `D: exportação só em CSV na primeira versão` |
+| `?` | Dúvida, algo a confirmar | `? quem aprova acesso de parceiros` |
+| `!` | Risco (de negócio, experiência, segurança, prazo...) | `! integração X expõe dado pessoal sem controle` |
 | `→` | Ação com responsável | `→ Ana: revisar escopo OAuth` |
-| `N:` | Necessidade de usuário | `N: times querem testar server antes de publicar` |
+| `N:` | Necessidade de usuário | `N: times querem testar antes de publicar` |
 
 O que não tiver marcador também é lido, com menos confiança.
 

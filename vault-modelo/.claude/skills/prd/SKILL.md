@@ -5,7 +5,7 @@ description: Escreve um PRD (documento de produto) a partir de notas, caixograma
 
 # /prd
 
-Argumento: nome ou descrição curta da iniciativa. Ex.: `/prd aprovação de servers externos`.
+Argumento: nome ou descrição curta da iniciativa. Ex.: `/prd exportação de relatórios`.
 
 ## Fronteira
 
@@ -22,7 +22,7 @@ O PRD diz **o quê** e **por quê**: problema, usuários, objetivos, requisitos,
 2. **Problema com evidência:** cada afirmação sobre usuário leva link para uma evidência. Sem evidência: marque como premissa a validar.
 3. **Objetivos e métricas:** ligue a KRs existentes. Não invente baseline nem meta.
 4. **Requisitos:** numerados (`RQ-01`), com prioridade (obrigatório, importante, desejável) e origem.
-5. **Requisitos de governança:** derive dos princípios validados do tema que se aplicam. Cite o princípio (`P-003`).
+5. **Requisitos derivados dos princípios:** para cada princípio validado do tema que se aplica à iniciativa (de qualquer categoria: experiência, dados, segurança, operação etc.), escreva o requisito correspondente e cite o princípio (`P-003`).
 6. **Contexto do sistema:** descreva o caixograma relevante em texto e, se útil, gere um diagrama Mermaid. É contexto, não proposta de arquitetura.
 7. **Perguntas para o tech lead:** tudo o que é "como", viabilidade, estimativa e alternativas técnicas.
 8. **Salve** em `02-Temas/<Tema>/PRDs/<nome>.md` (`tipo: prd`, `status: rascunho`, `versao: 0.1`).

@@ -8,7 +8,7 @@ description: Define as métricas do tema a partir dos OKRs, escreve especificaç
 ## /metricas definir
 
 1. Leia `_contexto.md`, `OKRs/` do trimestre e o dicionário atual.
-2. Proponha uma **métrica principal** (a que melhor resume o valor que o produto entrega) e as **métricas que a movem**, agrupadas em: adoção, uso, qualidade/governança, experiência. Para cada uma: que pergunta responde, que decisão ela ajuda a tomar e a qual KR se liga.
+2. Proponha uma **métrica principal** (a que melhor resume o valor que o produto entrega) e as **métricas que a movem**, agrupadas em: adoção, uso, qualidade e confiabilidade, experiência (inclua segurança ou conformidade se o tema exigir). Para cada uma: que pergunta responde, que decisão ela ajuda a tomar e a qual KR se liga.
 3. Corte o que não ajuda a decidir nada. Menos é melhor: de 5 a 10 métricas.
 4. Para cada métrica, preencha a linha do dicionário (definição, fórmula, fonte provável, granularidade, segmentos). Baseline e meta: `[FALTA]` até ter fonte.
 5. Atualize `Metricas/_dicionario.md` e a "Métrica principal" no `_contexto.md` (`status: rascunho`).
@@ -23,7 +23,7 @@ Gera `Metricas/dashboard-<nome>.md` (`tipo: dashboard-spec`) para orientar o tim
 - **Visualizações sugeridas:** para cada pergunta, o tipo de gráfico e por quê (tendência → linha; comparação entre segmentos → barras; funil → funil).
 - **Filtros e segmentos**, granularidade, período padrão.
 - **Frequência de atualização** e tolerância de atraso.
-- **Critérios de aceite** do dashboard ("o número de servers publicados bate com o registro oficial").
+- **Critérios de aceite** do dashboard ("o total de usuários ativos bate com a base oficial").
 - **Esboço:** prompt para a IA do FigJam desenhar o layout (ou diagrama via conector).
 - **Perguntas para o time de dados:** disponibilidade da fonte, qualidade, esforço.
 
