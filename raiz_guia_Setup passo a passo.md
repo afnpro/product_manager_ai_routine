@@ -10,17 +10,24 @@ O setup leva cerca de 1h30 no total, feito no seu computador de trabalho: 30 min
 - [ ] Python 3 instalado (rode `python3 --version` no Mac ou `python --version` no Windows). As bibliotecas o próprio Claude Code instala quando precisar
 - [ ] Faça uma cópia de segurança do vault antes de mexer (copie a pasta inteira para outro lugar)
 
-## 2. Baixar e copiar o kit
+## 2. Baixar o kit e montar as pastas
 
-1. Abra esta conversa no computador de trabalho e baixe o arquivo `kit-rotina-pm.zip`. Ele não tem nenhum conteúdo corporativo.
-2. Descompacte. Dentro há o `LEIA-ME.md`, a pasta `guia/` (este guia em markdown) e a pasta `vault-modelo/`.
-3. Mostre os arquivos ocultos, porque o kit tem a pasta `.claude`:
-    - Mac (Finder): Cmd + Shift + . (ponto)
-    - Windows (Explorador de Arquivos): Exibir > Mostrar > Itens ocultos
-4. Copie **todo o conteúdo** de `vault-modelo/` para a raiz do seu vault (a pasta que contém a `.obsidian`). Se já existir uma pasta com o mesmo nome, mescle; não substitua suas notas.
-5. Confira que ficou assim na raiz do vault: `CLAUDE.md`, `A revisar.md`, `.claude/skills/` (com 21 pastas) e as pastas `00-Inbox` a `99-Templates`.
+O repositório (github.com/afnpro/product_manager_ai_routine) guarda todos os arquivos na raiz, sem pastas, com o caminho no próprio nome: `raiz_vault-modelo_.claude_skills_abrir-dia_SKILL.md` é o arquivo `vault-modelo/.claude/skills/abrir-dia/SKILL.md`. Assim dá para baixar sem `git clone`. O script `montar_vault.py` refaz as pastas.
+
+1. **Baixe os arquivos** para uma pasta vazia (ex.: `Downloads/kit-pm`), de um destes jeitos:
+    - No GitHub, **Code > Download ZIP**, e descompacte.
+    - Se o ZIP for bloqueado: abra cada arquivo no GitHub e use **Download raw file**. Baixe todos os `raiz_*` e o `montar_vault.py` para a mesma pasta.
+2. **Monte as pastas.** No terminal, dentro dessa pasta, rode:
+    - Mac: `python3 montar_vault.py --vault "/caminho/do/seu/vault"`
+    - Windows: `python montar_vault.py --vault "C:\caminho\do\seu\vault"`
+
+    O script cria `kit-rotina-pm/` (com `guia/` e `vault-modelo/`) ao lado dos arquivos e copia o conteúdo de `vault-modelo/` para a raiz do seu vault, incluindo a pasta oculta `.claude`. Ele **nunca sobrescreve** um arquivo que já existe: pula e avisa. Também avisa se faltar algum arquivo no download. Sem `--vault`, ele só monta `kit-rotina-pm/` e você copia depois (nesse caso, mostre os arquivos ocultos: Cmd + Shift + . no Finder; Exibir > Mostrar > Itens ocultos no Windows).
+3. **Sem Python?** Abra o Claude Code na pasta dos arquivos e peça: "Monte as pastas seguindo a tabela 'Mapa de arquivos' do README.md e depois copie o conteúdo de vault-modelo para o meu vault em <caminho>, sem sobrescrever nada".
+4. **Confira** na raiz do vault: `CLAUDE.md`, `A revisar.md`, `.claude/skills/` (com 21 pastas) e as pastas `00-Inbox` a `99-Templates`.
 
 O Obsidian não mostra a pasta `.claude` nem os arquivos `.json`. É normal.
+
+**Atualizações do kit:** baixe de novo e rode o script. Como ele não sobrescreve, para receber a versão nova de um comando apague antes, no vault, a pasta daquele comando em `.claude/skills/` (seus arquivos de configuração e notas ficam intactos).
 
 ## 3. Plugins do Obsidian
 
@@ -84,7 +91,7 @@ Tudo isso fica só no seu computador.
 
 ## 7. Importar o histórico do MCP
 
-1. No Copilot, rode o prompt de busca de documentos ([Prompts do Copilot.md](Prompts%20do%20Copilot.md), prompt 7). Baixe os de relevância alta para `00-Inbox/_entrada/`.
+1. No Copilot, rode o prompt de busca de documentos (arquivo `Prompts do Copilot.md`, prompt 7). Baixe os de relevância alta para `00-Inbox/_entrada/`.
 2. No Teams, baixe as transcrições das reuniões que você organizou nos últimos 3 a 6 meses para a mesma pasta.
 3. No Copilot, rode o prompt de extração histórica (prompt 6) mês a mês, do mais recente para o mais antigo. Salve cada resposta como `copilot-mcp-AAAA-MM.md` na mesma pasta.
 4. No Claude Code, rode `/importar mcp`. Ele processa em lotes de 20 e para entre eles; diga "continue" para seguir.

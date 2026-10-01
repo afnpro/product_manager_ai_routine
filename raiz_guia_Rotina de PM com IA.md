@@ -228,7 +228,7 @@ São 21 comandos do Claude Code, todos genéricos: o que é específico vem do c
 | `/configurar-template` | Uma vez | Arquivo de apresentação no vault | Mapa de layouts para os PPTs | Não precisa |
 | `/configurar-rubrica` | Uma vez | Regras de pontuação e exemplos | Rubrica usada pelo `/historias` | Sempre |
 
-Os prompts do Copilot ficam em `90-Config/prompts-copilot/` e também em [Prompts do Copilot.md](Prompts%20do%20Copilot.md): lista de reuniões, extração com segunda passada, daily, revisão de documento, respostas ao comunicado e importação. Todos começam com uma checagem de completude ("quantas reuniões você encontrou?").
+Os prompts do Copilot ficam em `90-Config/prompts-copilot/` e também no arquivo `Prompts do Copilot.md` do guia: lista de reuniões, extração com segunda passada, daily, revisão de documento, respostas ao comunicado e importação. Todos começam com uma checagem de completude ("quantas reuniões você encontrou?").
 
 ## Roadmap mensal, OKRs e métricas
 
@@ -300,7 +300,7 @@ O `/importar` transforma o histórico do tema em material de trabalho: linha do 
 
 O sistema entra inteiro na segunda, 5 de outubro, início do Q4. Até lá, instalação, calibração e importação mínima.
 
-Instalação detalhada, passo a passo: [Setup passo a passo.md](Setup%20passo%20a%20passo.md)
+Instalação detalhada, passo a passo: arquivo `Setup passo a passo.md` do guia.
 
 **Quarta, 30/9, e quinta, 1/10: instalar e calibrar**
 
